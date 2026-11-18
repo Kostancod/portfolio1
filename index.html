@@ -653,12 +653,15 @@
         font-size: 15px;
       }
       .foot {
-        margin-left: 20px;
+        margin-left: 50%;
       }
 
       .about {
         grid-template-columns: 1fr
       }
+      .contact .btns{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+      .contact .btns .btn{text-align:center;padding:14px 10px}
+      .contact .btns #copy{grid-column:1/-1}
     }
     html{overflow-x:hidden}
     html,body{max-width:100%;overflow-x:clip}
